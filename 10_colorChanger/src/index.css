@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-display {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px; 
+}
+
+.color-picker-container {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color-picker-container > div {
+  margin: 10px;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+  margin: 20px auto 10px;
+}
+
+.color-display > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 30%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
